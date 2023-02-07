@@ -48,7 +48,8 @@ body{
             }
         }
 
-        .age{
+        .age, 
+        .name{
             display: none;
 
             &.show{

@@ -40,10 +40,12 @@ body .modal-content .close-modal {
 body .modal-content .close-modal:hover {
   cursor: pointer;
 }
-body .modal-content .age {
+body .modal-content .age,
+body .modal-content .name {
   display: none;
 }
-body .modal-content .age.show {
+body .modal-content .age.show,
+body .modal-content .name.show {
   display: block;
   margin-top: 10px;
 }
